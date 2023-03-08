@@ -1,0 +1,82 @@
+.hero-container {
+  margin-top: 55px;
+  padding: 1.5rem 1rem;
+  .name {
+    color: #ffe082;
+    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .business {
+    font-weight: 700;
+    font-size: 32px;
+    color: #2196f3;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #424242;
+  }
+  button {
+    background: #1e88e5;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 24px 33px;
+    border: none;
+    margin: 1.5rem 0;
+  }
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 778px) {
+  .hero-container {
+    margin-top: 89px;
+    background-image: url("../assests/img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    padding: 4rem 3rem;
+    img {
+      display: none;
+    }
+    .text-container {
+      width: 50%;
+    }
+    .name {
+      font-weight: 700;
+      font-size: 36px;
+    }
+    .business {
+      font-weight: 700;
+      font-size: 56px;
+      color: #bbdefb;
+      text-align: left;
+    }
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      color: #bbdefb;
+      text-align: left;
+    }
+    button {
+      width: 50%;
+      background: #ffe082;
+      color: #424242;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+}
