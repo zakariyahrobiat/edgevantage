@@ -3,8 +3,7 @@ import logo from "../assests/img/logo.png";
 import menu from "../assests/img/menu.png";
 import close from "../assests/img/close.png";
 import country from "../assests/img/country.png";
-import { nav } from "../assests/data";
-import { Link } from "react-router-dom";
+
 import "./header.scss";
 const Header = () => {
   const refContainer = useRef();
