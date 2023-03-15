@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import logo from "../assests/img/logo.png";
 import menu from "../assests/img/menu.png";
 import close from "../assests/img/close.png";
-import country from "../assests/img/country.png";
 
 import "./header.scss";
 const Header = () => {
