@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import logo from "../assests/img/logo.png";
 import menu from "../assests/img/menu.png";
 import close from "../assests/img/close.png";
-import country from "../assests/img/country.png";
 
 import "./header.scss";
 const Header = () => {
@@ -48,7 +47,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="close" onClick={closeNav}>
-              <img src={close} alt="" srcset="" />
+              <img src={close} alt="" srcSet="" />
             </div>
           </div>
 
@@ -75,12 +74,8 @@ const Header = () => {
           </ul>
         </div>
         <div className="button-container">
-          <div className="country">
-            <img src={country} alt="" srcSet="" />
-            <p>En</p>
-          </div>
-          <button className="hire-button">Hire us</button>
           <button className="sign-button">Sign in</button>
+          <button className="hire-button">Hire us</button>
         </div>
       </div>
     </div>
