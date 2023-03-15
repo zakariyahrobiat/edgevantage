@@ -1,36 +1,35 @@
 .hero-container {
   margin-top: 55px;
-  padding: 1.5rem 1rem;
-  .name {
-    color: #ffe082;
-    font-weight: 600;
-    font-size: 24px;
-    font-weight: 700;
-    font-size: 36px;
-  }
+  padding: 1.5rem 2rem;
+  background-image: url("../assests/img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+
   .business {
     font-weight: 700;
-    font-size: 32px;
-    color: #2196f3;
+    font-size: 1.5625rem;
+    color: white;
     text-align: center;
     padding: 1.5rem 0;
+    line-height: 125%;
   }
   p {
-    font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 20px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #424242;
+    color: white;
   }
   button {
-    background: #1e88e5;
+    background: white;
     border-radius: 10px;
     width: 100%;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 16px;
+    color: #224dd0;
+    font-weight: 500;
+    font-size: 0.875rem;
     padding: 24px 33px;
     border: none;
     margin: 1.5rem 0;
@@ -43,40 +42,28 @@
 @media screen and (min-width: 778px) {
   .hero-container {
     margin-top: 89px;
-    background-image: url("../assests/img/hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100vw;
-    padding: 4rem 3rem;
-    img {
-      display: none;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0;
     .text-container {
-      width: 50%;
+      width: 70%;
     }
-    .name {
-      font-weight: 700;
-      font-size: 36px;
-    }
+
     .business {
       font-weight: 700;
-      font-size: 56px;
-      color: #bbdefb;
-      text-align: left;
+      font-size: 3rem;
+      line-height: 66px;
     }
     p {
-      font-weight: 400;
-      font-size: 24px;
-      color: #bbdefb;
-      text-align: left;
+      font-size: 1.5625rem;
+      line-height: 150%;
     }
     button {
-      width: 50%;
-      background: #ffe082;
-      color: #424242;
-      font-size: 20px;
+      font-size: 1rem;
       margin-bottom: 0;
+      width: 294px;
     }
   }
 }

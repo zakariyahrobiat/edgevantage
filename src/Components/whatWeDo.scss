@@ -1,0 +1,52 @@
+.whatWeDo-container {
+  padding: 1.5rem 2rem;
+  background-color: #fafafa;
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border: 1px solid rgba(2, 48, 71, 0.15);
+    border-radius: 15px;
+    padding: 3rem 2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    .text-container {
+      h1 {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: #141620;
+        letter-spacing: 0.03em;
+        padding-bottom: 1rem;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%;
+        color: #141620;
+        font-style: italic;
+      }
+    }
+  }
+}
+@media screen and (min-width: 778px) {
+  .whatWeDo-container {
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    .box {
+      .text-container {
+        h1 {
+          font-size: 1.5625rem;
+          color: #424242;
+        }
+        p {
+          font-size: 1.5625rem;
+          color: #141620;
+        }
+      }
+    }
+  }
+}
